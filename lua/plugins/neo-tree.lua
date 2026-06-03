@@ -3,7 +3,7 @@
 
 return {
   'nvim-neo-tree/neo-tree.nvim',
-  version = '*',
+  version = 'v3.x',
   dependencies = {
     'nvim-lua/plenary.nvim',
     'nvim-tree/nvim-web-devicons', -- not strictly required, but recommended
@@ -17,9 +17,11 @@ return {
     filesystem = {
       window = {
         mappings = {
+          ['P'] = { "toggle_preview", config = { use_float = false }},
           ['\\'] = 'close_window',
         },
       },
     },
   },
+  vim.keymap.set('n', '<leader>nn', ':Neotree<CR>', { desc="Neotree"}),
 }

@@ -1,3 +1,22 @@
+-- See `:help gitsigns` to understand what the configuration keys do
+return {
+  -- Adds git related signs to the gutter, as well as utilities for managing changes
+  'lewis6991/gitsigns.nvim',
+  opts = {
+    signs = {
+      add = { text = '+' },
+      change = { text = '~' },
+      delete = { text = '_' },
+      topdelete = { text = '‾' },
+      changedelete = { text = '~' },
+    },
+  },
+}
+
+-- Above only contains the base config.
+-- Kickstart includes this, but doesn't load it
+--[[
+
 -- Adds git related signs to the gutter, as well as utilities for managing changes
 -- NOTE: gitsigns is already included in init.lua but contains only the base
 -- config. This will add also the recommended keymaps.
@@ -53,3 +72,5 @@ return {
     },
   },
 }
+--]]
+-- vim: ts=2 sts=2 sw=2 et

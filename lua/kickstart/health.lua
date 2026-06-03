@@ -1,7 +1,9 @@
 --[[
 --
--- This file is not required for your own configuration,
--- but helps people determine if their system is setup correctly.
+-- This file is not required to configure.
+-- It's used by :checkhealth automatically to ensure
+-- dependencies for kickstart such as nvim version,
+-- git, make, unzip, rg
 --
 --]]
 
