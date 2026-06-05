@@ -16,7 +16,7 @@ require 'autocmd'
 require 'terminal'
 require 'lazy-bootstrap'
 require 'lazy-plugins'
-
+-- require 'debug'
 
 --[[
 Links & Notes:
@@ -38,10 +38,7 @@ TODO:
 (DONE) Lookup mini.files config video. Want to close when I select a file.
 (DONE) Use nvim-lite terminal options Add multiline add function
 (DONE) Variable o/O behavior)
-Add additional options for terminal. Want to be able to either have middle
-popup or have it go over the existing buffer. Esc should close or go back
-to last buffer.
-Tone down the yellow for Command. It is very bright when searching
+
 --]]
 
 -- The line beneath this is called `modeline`. See `:help modeline`

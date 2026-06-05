@@ -16,6 +16,7 @@ return  { -- Useful plugin to show you pending keybinds.
         { '<leader>n', group = '[N]avigate' },
         { '<leader>r', group = 'myvim[R]c'},
         { '<leader>t', group = '[T]erminal'},
+        { '<leader>d', group = '[D]ebug'}
       },
     },
   }

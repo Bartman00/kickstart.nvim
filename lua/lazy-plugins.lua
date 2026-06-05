@@ -19,6 +19,7 @@ require('lazy').setup({
   require 'plugins.todo-highlight',
   require 'plugins.mini',
   require 'plugins.neo-tree',
+  require 'plugins.debug',
 
   
 
